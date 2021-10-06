@@ -1,0 +1,7 @@
+add_test( CheckingLog2.eight /develop/Task2/bin/Task2.test [==[--gtest_filter=CheckingLog2.eight]==] --gtest_also_run_disabled_tests)
+set_tests_properties( CheckingLog2.eight PROPERTIES WORKING_DIRECTORY /develop/Task2/bin SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test( CheckingLog2.nine /develop/Task2/bin/Task2.test [==[--gtest_filter=CheckingLog2.nine]==] --gtest_also_run_disabled_tests)
+set_tests_properties( CheckingLog2.nine PROPERTIES WORKING_DIRECTORY /develop/Task2/bin SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test( CheckingLog2.zero /develop/Task2/bin/Task2.test [==[--gtest_filter=CheckingLog2.zero]==] --gtest_also_run_disabled_tests)
+set_tests_properties( CheckingLog2.zero PROPERTIES WORKING_DIRECTORY /develop/Task2/bin SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set( Task2.test_TESTS CheckingLog2.eight CheckingLog2.nine CheckingLog2.zero)

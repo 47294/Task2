@@ -1,1 +1,1 @@
-int Log2(int);
+int log2(int);

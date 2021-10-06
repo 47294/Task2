@@ -1,17 +1,17 @@
-#include "../include/Logarithm.h"
+#include "../includes/Logarithm.h"
 #include <math.h>
-int Log2(int x)
+int log2(int x)
 {
-  logar = log(x) / log(2)
-  if (logar == int logar) 
+  float logar = log(x) / log(2);
+  if (logar == int (logar)) 
   {
 		return logar;
   }
-  elif (x <= 0)
+  else if (x <= 0)
   {
 		return -2;
    }
-	else 
+  else 
   {
 		return -1;
   }
