@@ -11,3 +11,4 @@ CTestTestfile.cmake
 !/src
 !/includes
 !/tests
+/bin
