@@ -1,5 +1,0 @@
-if(EXISTS "/develop/Task2/bin/Task2.test[1]_tests.cmake")
-  include("/develop/Task2/bin/Task2.test[1]_tests.cmake")
-else()
-  add_test(Task2.test_NOT_BUILT Task2.test_NOT_BUILT)
-endif()
